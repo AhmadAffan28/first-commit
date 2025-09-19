@@ -12,9 +12,15 @@ main() {
   radius = 10;  // diubah karena mutable
 
   print("Luas lingkaran adalah ${luasLingkaran(radius)}");
+
+final namaku = "apan";
+final namamu = "ayess";
+int umurku = 14;
+int umurmu = 13;
+
+  // 3.14 * 10 * 10
 }
 
 num luasLingkaran(num radius) {
   return phi * radius * radius;
 }
- 
