@@ -31,4 +31,11 @@ void main(List<String> args) {
     print("$angka adalah bilangan ganjil.");
   }
 
+  var namber = 10;
+  var genap = namber % 2 ==0;
+  print('apakah $namber adalah bilangan genap? $genap');
+  var ganjil = namber % 2 !=0;
+  print('apakah $namber adalah bilangan ganjil? $ganjil');
+
+
 }
